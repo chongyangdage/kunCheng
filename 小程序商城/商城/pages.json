@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/shop_sort/index",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		},
+		{
+			"path": "pages/shop_search/index",
+			"style": {
+				"navigationBarTitleText": "搜索商品"
+			}
+		},
+		{
+			"path": "pages/shop_show_serch/index",
+			"style": {
+				"navigationBarTitleText": "商品"
+			}
+		},
+		{
+			"path": "pages/shop_details/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/shop_car/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/submit_order/index",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/order_address/index",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/site/index",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/my_address/index",
+			"style": {
+				"navigationBarTitleText": "地址信息"
+			}
+		},
+		{
+			"path": "pages/new_site/index",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/store/index",
+			"style": {
+				"navigationBarTitleText": "店铺"
+			}
+		},
+		{
+			"path": "pages/store_shop/index",
+			"style": {
+				"navigationBarTitleText": "店铺"
+			}
+		}
+		
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/dist/button/index",
+			"van-search": "/wxcomponents/dist/search/index",
+			"van-tabbar": "/wxcomponents/dist/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/dist/tabbar-item/index",
+			"van-tab": "/wxcomponents/dist/tab/index",
+			"van-tabs": "/wxcomponents/dist/tabs/index",
+			"van-toast": "/wxcomponents/dist/toast/index",
+			"van-icon": "/wxcomponents/dist/icon/index",
+			"van-goods-action": "/wxcomponents/dist/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/dist/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/dist/goods-action-button/index",
+			"van-stepper": "/wxcomponents/dist/stepper/index",
+			"van-popup": "/wxcomponents/dist/popup/index",
+			"van-checkbox": "/wxcomponents/dist/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/dist/checkbox-group/index",
+			"van-submit-bar": "/wxcomponents/dist/submit-bar/index",
+			"van-radio": "/wxcomponents/dist/radio/index",
+			"van-radio-group": "/wxcomponents/dist/radio-group/index",
+			"van-notify": "/wxcomponents/dist/notify/index",
+			"van-cell": "/wxcomponents/dist/cell/index",
+			"van-cell-group": "/wxcomponents/dist/cell-group/index",
+			"van-switch": "/wxcomponents/dist/switch/index",
+			"van-field": "/wxcomponents/dist/field/index",
+			"van-dialog": "/wxcomponents/dist/dialog/index",
+			"van-empty": "/wxcomponents/dist/empty/index",
+			"van-tag": "/wxcomponents/dist/tag/index",
+			"van-sidebar": "/wxcomponents/dist/sidebar/index",
+			"van-sidebar-item": "/wxcomponents/dist/sidebar-item/index"
+			 
+
+		}
+	}
+}

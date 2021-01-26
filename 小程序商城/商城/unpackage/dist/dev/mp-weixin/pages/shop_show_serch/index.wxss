@@ -1,0 +1,78 @@
+
+.content{
+	padding-bottom: 30rpx;
+}
+.class_fix {
+	position: fixed;
+	top: -5rpx;
+	z-index: 100000;
+	
+	right: auto;
+	background: #fff;
+	z-index: 10000000000;
+	left: auto;
+	width: 100vw;
+	height: 110rpx;
+	margin: 0rpx auto 0 auto;
+}
+.gouwu {
+	width: 57rpx;
+	height: 57rpx;
+}
+.now_price {
+	font-size: 17px;
+	color: red;
+	font-weight: bold;
+}
+.old_price {
+	margin-left: -120rpx;
+	line-height: 48rpx;
+	font-size: 15px;
+	color: #b6b6b6;
+	text-decoration: line-through;
+}
+.shop_price_wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shop_tit {
+	font-weight: bold;
+	height: 79rpx;
+	line-height: 79rpx;
+	text-align: left;
+}
+.shop_wrap {
+
+	padding-left: 28rpx;
+	padding-right: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.shop_list {
+	margin-top: 40rpx;
+	width: 320rpx;
+}
+.shop_img {
+	width: 320rpx;
+	height: 320rpx;
+	object-fit: cover;
+}
+.search_class {
+	background-color: unset !important;
+}
+.search {
+	width: 90%;
+	height: 110rpx;
+	margin: 8rpx auto 0 auto;
+}
+

@@ -1,0 +1,73 @@
+
+.button{
+		width: 564rpx;
+		height: 118rpx;
+		border-radius: 50rpx;
+		margin: 210rpx auto 100rpx auto;
+		line-height: 118rpx;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		font-size: 18px;
+		background-color: #ff4723;
+}
+.main_list{
+		margin-top: 60rpx;
+		background-color: #fff;
+}
+.margin_2{
+		margin-left: 35rpx;
+}
+.margin{
+		margin-left: 230rpx;
+}
+.bottom_2{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+}
+.bottom{
+		padding-left: 38rpx;
+		padding-right: 38rpx;
+		padding-top: 30rpx;
+		padding-bottom: 30rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+}
+.middle{
+		padding-left: 38rpx;
+		padding-right: 38rpx;
+		padding-top: 30rpx;
+		padding-bottom: 30rpx;
+		font-size: 13px;
+		color: #bebebe;
+		border-bottom: 2rpx solid  #bebebe;
+}
+.top_l{
+		height: 74rpx;
+		line-height: 74rpx;
+		font-weight: bold;
+}
+.top_r{
+		height: 74rpx;
+		line-height: 74rpx;
+		font-weight: bold;
+}
+.top{
+	padding-left: 38rpx;
+	padding-right: 38rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.my_wrap{
+	
+	overflow: hidden;
+	min-height: 100vh;
+	background-color: #f7f7f7;
+}
+
